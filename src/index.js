@@ -5,8 +5,8 @@ import { browserHistory, Router, Route, IndexRoute } from 'react-router';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Main from './components/Main';
-import HomePageContainer from './containers/HomePageContainer';
-import ResultPageContainer from './containers/ResultPageContainer';
+import HomePageContainer from './containers/HomePage';
+import ResultPageContainer from './containers/ResultPage';
 import store from './store';
 
 // FastClick for material-ui
