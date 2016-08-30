@@ -9,5 +9,5 @@ const initialState = Immutable.Map();
 export default createStore(
   rootReducer,
   initialState,
-  applyMiddleware(reduxThunk, createLogger({ stateTransformer: state => state.toJS() })),
+  applyMiddleware(reduxThunk, createLogger({ stateTransformer: state => state.toJS() }))
 );
